@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist.css">
+    <script src="https://unpkg.com/css-has-pseudo/dist/browser-global.js"></script>
+    <script>cssHasPseudo(document)</script>
+    <title>:has() polyfill</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>:has() polyfill test</h1>
+      <div class="contents">
+        <h2>
+          I have <span>span element</span>.
+        </h2>
+        <h2>
+          I don't have span element.
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
